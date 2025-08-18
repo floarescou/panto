@@ -1,0 +1,51 @@
+//=======   общие настройки
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+
+  color: var(--main-color);
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+
+  &--small {
+    max-width: 1084px;
+    padding: 0 15px;
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: clamp(32px, 1.702rem + 1.49vw, 42px);
+}
+
+.layout {
+  background-color: #e6e6e6;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 15px;
+
+  a {
+    color: var(--text-muted);
+
+    transition: color .2s ease-in;
+
+    &:hover {
+      color: #696969;
+    }
+  }
+}

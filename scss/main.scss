@@ -1,0 +1,34 @@
+//=====   подключение шрифтов
+@import "../styles/fonts.css";
+
+//base
+//=====   сброс предустановленных стилей
+@import "base/reset.scss";
+
+//=====   подключение переменных стилей
+@import "base/vars.scss";
+
+//=====   основные стили страницы
+@import "base/base.scss";
+
+//blocks
+@import "blocks/header.scss";
+@import "blocks/navigation.scss";
+@import "blocks/nav-list.scss";
+@import "blocks/sub-nav.scss";
+@import "blocks/cart.scss";
+@import "blocks/search-form.scss";
+@import "blocks/info-dot.scss";
+@import "blocks/info-hint.scss";
+@import "blocks/benefits.scss";
+@import "blocks/benefit.scss";
+@import "blocks/products.scss";
+@import "blocks/read-more.scss";
+@import "blocks/tab-controls.scss";
+@import "blocks/card.scss";
+@import "blocks/slider.scss";
+@import "blocks/footer.scss";
+@import "blocks/logo.scss";
+
+@import "blocks/mobile-nav.scss";
+

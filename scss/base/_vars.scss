@@ -1,0 +1,66 @@
+:root {
+  --main-font: "Gilroy", sans-serif;
+  --products-font: "Inter", sans-serif;
+  --footer-accent-font: "DM Sans", sans-serif;
+
+  --main-color: #1E1E1E;
+  --accent-color: #E58411;
+
+  --second-color-white: #FFFFFF;
+  --slider-text-color: #0D1B39;
+  --text-muted: #8D8D8D;
+
+  --footer-bg: #2D2F33;
+  --footer-accent--color: #F6973F;
+  --footer-text-color: rgba(255, 255, 255, 0.8);
+
+  --ui-buruza-color: #00D6C9;
+  --ui-orange-color: #E58411;
+  --ui-grey-color: #7C7C7C;
+  --ui-darkblue-color: #0D1B39;
+  --ui-white-color: #FFFFFF;
+}
+
+@mixin retina-bg ($image) {
+  @media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    background-image: $image;
+  }
+}
+
+@mixin desctop-small () {
+  @media(max-width: 1400px) {
+    @content;
+  }
+}
+
+@mixin tablet () {
+  @media(max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin tablet-mini () {
+  @media(max-width: 819px) {
+    @content;
+  }
+}
+
+@mixin mobile () {
+  @media(max-width: 629px) {
+    @content;
+  }
+}
+
+@mixin mobile-small () {
+  @media(max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin mobile-extra-small () {
+  @media(max-width: 349px) {
+    @content;
+  }
+}

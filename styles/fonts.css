@@ -1,0 +1,62 @@
+/*=====     Gilroy font     =====*/
+@font-face {
+    font-family: "Gilroy";
+    src:
+            /*local("Gilroy-Regular"), local("Gilroy Regular"),*/
+    url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("../fonts/Gilroy-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src:
+            /*local("Gilroy-Medium"), local("Gilroy Medium"),*/
+    url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src:
+            /*local("Gilroy-Bold"), local("Gilroy Bold"),*/
+    url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*=====     Inter font     =====*/
+@font-face {
+    font-family: "Inter";
+    src:
+            /*local("Inter-Regular"), local("Inter Regular");*/
+url("../fonts/Inter-Regular.woff2") format("woff2"),
+url("../fonts/Inter-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+            /*local("Inter-SemiBold"), local("Inter SemiBold"),*/
+    url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("../fonts/Inter-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/*=====     DM Sans font     =====*/
+@font-face {
+    font-family: "DM Sans";
+    src:
+            /*local("DMSans-Regular"), local("DMSans-Regular"),*/
+    url("../fonts/DMSans-Regular.woff2") format("woff2"),
+    url("../fonts/DMSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}

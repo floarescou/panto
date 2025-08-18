@@ -1,0 +1,36 @@
+.tab-controls {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  background: #EEEEEE;
+  border-radius: 44px;
+}
+
+.tab-controls__btn {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(30, 30, 30, 0.81);
+
+  justify-content: center;
+  align-items: center;
+  padding: 7px 20px;
+
+  width: 84px;
+  height: 45px;
+
+  border-radius: 32px;
+  transition: background-color .3s ease-in;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  &--active {
+    font-weight: 500;
+    background-color: var(--ui-white-color);
+
+    &:hover {
+      background-color: var(--ui-white-color);
+    }
+  }
+}

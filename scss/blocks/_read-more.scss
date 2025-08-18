@@ -1,0 +1,17 @@
+.read-more {
+  display: inline-flex;
+  gap: 13px;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.85;
+  color: var(--accent-color);
+
+  &:after {
+    content: url("../images/icons/next-link.svg");
+    height: 24px;
+  }
+
+  &--big {
+    font-size: 18px;
+  }
+}

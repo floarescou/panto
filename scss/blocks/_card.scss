@@ -1,0 +1,98 @@
+.card {
+  position: relative;
+  width: 268px;
+  font-family: var(--products-font);
+  font-weight: 400;
+  color: var(--slider-text-color);
+}
+
+.card__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card__photo {
+  //height: 240px;
+  background-color: #FAFAFA;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card__image {
+  margin-top: -50px;
+  height: 240px;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  row-gap: 6px;
+  height: 202px;
+  background-color: var(--second-color-white);
+  border-radius: 0 0 20px 20px;
+  padding: 14px 22px 28px 22px;
+}
+
+.card__category {
+  position: relative;
+  z-index: 3;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-muted);
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.card__rating {
+  display: flex;
+  column-gap: 3px;
+}
+
+.card__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__price {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+  font-weight: 600;
+  font-size: 21px;
+
+  &:before {
+    content: attr(data-value);
+
+    font-size: 15px;
+  }
+}
+
+.card__btn {
+  position: relative;
+  z-index: 3;
+  width: 49px;
+  height: 49px;
+  background-color: var(--ui-darkblue-color);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .3s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

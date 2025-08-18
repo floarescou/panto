@@ -1,0 +1,51 @@
+.info-hint {
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  gap: 8px;
+  width: 112px;
+  height: 56px;
+  background: url("../images/icons/tooltip.svg");
+}
+
+.info-hint__radio {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.info-hint__radio:checked + .info-hint__radio-fake {
+  //border: 2px solid var(--ui-darkblue-color);
+  background-image: url("../images/icons/checkbox-no-shadow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.info-hint__radio-fake {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+
+  background: var(--ui-grey-color);
+  border: 2px solid var(--ui-white-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  &--orange {
+    background: var(--ui-orange-color);
+  }
+  &--biruza {
+    background: var(--ui-buruza-color);
+  }
+  &--grey {
+    background: var(--ui-grey-color);
+  }
+}
